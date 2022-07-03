@@ -113,6 +113,9 @@ h1{
     text-align: center;
 }
 .about-img{
-width: 50%;
+    width: 50%;
+}
+.contact{
+    width: 90%;
 }
 }
