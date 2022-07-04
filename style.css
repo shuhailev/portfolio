@@ -62,6 +62,7 @@ h1{
 .project-btn{
     background: #212529;
     color: white;
+    border: 0;
 }
 .card{
     background: black;
