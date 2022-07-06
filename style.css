@@ -4,7 +4,12 @@ html,body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
+}
+#header button{
+    border: 0;
+    margin-left: auto;
+    margin-right: 3px;
 }
 h1{
     padding-top: 5rem;
@@ -19,6 +24,8 @@ h1{
     height: 100vh;
     float: left;
     box-sizing: content-box;
+    background:rgb(114, 1, 1) ;
+    background-image: url('img/banner.jpg')"
 }
 .banner-image{
     width: 8rem;
@@ -36,6 +43,10 @@ h1{
     font-family: sans-serif;
     margin-top: -10px;
 }
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
 .about-img{
     height: auto;
     margin-bottom: 1rem;
@@ -51,10 +62,12 @@ h1{
     line-height: 2;
     margin-top: 4rem;
     font-family: 'Courier New', Courier, monospace;
+    width: 75%;
 }
 .portfolio{
     margin-bottom: 1rem;
     margin-left: 0.5rem;
+    height: 480px;
 }
 .portfolio-h1{
     margin-bottom: 2rem;
@@ -68,8 +81,12 @@ h1{
 .card{
     background: black;
     color: white;
+    border: red 5px; 
 }
-.skills-h1{
+.card p{
+    color: rgb(109, 109, 109);
+}
+.skillsh1{
     margin-bottom: 2rem;
     color:  rgb(114, 1, 1);
 }
@@ -92,12 +109,31 @@ h1{
     width: 90%;
     margin-left: 2rem;
 }
+.progress-bar{
+    background: rgb(114, 1, 1);
+}
 .contact{
     margin-left: 2rem;
 }
 .submit-button{
     background: black;
     color: white;
+}
+.btn-go-up{
+    padding-top: 10px;
+    width: 45px;
+    height: 45px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: 40px;
+}
+.btn-go-up a{
+    color: white;
+    text-decoration: none;
 }
 .footer{
     background:  rgb(0, 0, 0);
@@ -115,9 +151,14 @@ h1{
     text-align: center;
 }
 .about-img{
-    width: 50%;
+width: 50%;
 }
 .contact{
     width: 90%;
+}
+}
+@media only screen and (max-width: 767px) {
+.navbar{
+    padding-right: 0%;
 }
 }
