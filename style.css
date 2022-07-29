@@ -87,7 +87,7 @@ h1{
 .portfolio{
     margin-bottom: 1rem;
     margin-left: 0.5rem;
-    height: auto;
+    height: 480px;
     width: 15.5rem;
 }
 .portfolio-h1{
@@ -97,10 +97,10 @@ h1{
 .portfolio-p{
     text-align: center;
 }
-.p1-p{ padding-bottom: 92px; }
-.p2-p{ padding-bottom: 68px; }
-.p3-p{ padding-bottom: 20px; }
-.p4-p{ padding-bottom: 137px; }
+.p1-p{ padding-bottom: 0px; }
+.p2-p{ padding-bottom: 0px; }
+.p3-p{ padding-bottom: 00px; }
+.p4-p{ padding-bottom: 0; }
 .portfolio-item{
     color: white;
 }
