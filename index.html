@@ -14,17 +14,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
 <body>
-  <!-- <script>
-    alert("This webpage is currently under construction, please dont't mind the bugs.");
-  </script> -->
-
   <header id="header">
     <div class="row">
     <div class="col-12">
-      <nav class="navbar navbar-expand-sm navbar-dark">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <nav class="navbar navbar-expand-sm">
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -41,16 +34,20 @@
       </nav>
     </div>
     </div>
-  </header> 
-
+  </header>
 
 <!--bannerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-->
-  <section class="banner bg-image"style="background-image: url('img/banner.jpg')";>
+  <section class="banner bg-image";>
     <div class="row">
+        <div class="col-12">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
       <div class="col-lg-12 text-center">
           <img class="img-responsive img-fluid banner-image" src="img/hello.png"  alt="">
           <h1 class="name">I am Shuhail Mahamood</h1>
-          <h6 class="designation">Frontend Developer/Web Designer <br><br><br><br></h6>
+          <h6 class="designation">Frontend Developer/Web Designer </h6>
       </div>
     </div>
   </section>
@@ -62,15 +59,16 @@
     <div class="row">
       <h1 class=" about-h1 text-center">About Me</h1>
       <div class="col-md-6">
-        <img class="about-img img-fluid" src="img/about-img.png" alt="">
+        <img class="about-img" src="img/about-img.png" alt="">
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6 about-box">
         <p class="about-p">I am a Front end Developer/Web Designer. I Build websites using HTML,CSS,Javascript Etc.
           I have practical Knowledge with Frameworks like Bootstrap,Jquery etc.
           I know the Basics of Java and C programming.I am a learner.  I would like to learn new languages on my way forward.</p>
+        <button class="btn-contact">Contact Me</button>  
       </div>
-      </div>
+    </div>
   </section> 
 
 <!--portfolioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo-->
@@ -78,51 +76,51 @@
     <h1 class="portfolio-h1">Portfolio</h1>
     <div class="row">
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card mx-auto portfolio" style="width: 18rem;">
-          <img src="img/project1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Calculator project</h5>
-            <p class="card-text text-start">This is a project i did while ago using Javascript.I have used HTML, CSS and Javascript in this project</p>
-          </div>
+        <div class="card mx-auto portfolio">
+            <img src="img/project1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title portfolio-item">Calculator project</h5>
+                <p class="card-text portfolio-p p1-p">This is a project i did while ago using Javascript.I have used HTML, CSS and Javascript in this project</p>
+            </div>
           <a class="btn project-btn" href="https://htmlpreview.github.io/?https://github.com/shuhailev/shuhailev/blob/main/calculator/index.html" role="button">SEE DEMO</a>
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card mx-auto portfolio " style="width: 18rem;">
-          <img src="img/project2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Portfolio project</h5>
-            <p class="card-text text-start">I build this website to showcase my works.This is the website you are 
-              currently in.Skills used: HTML CSS Javascript and Bootstrap</p>
-          </div>
-            <a class="btn project-btn" href="http://shuhailev.online/" role="button">SEE DEMO</a>
+        <div class="card mx-auto portfolio ">
+              <img src="img/project2.jpg" class="card-img-top" alt="...">  
+            <div class="card-body">
+              <h5 class="card-title portfolio-item">Portfolio project</h5>
+              <p class="card-text portfolio-p p2-p text-start">I build this website to showcase my works.This is the website you are 
+                currently in.Skills used: HTML CSS Javascript and Bootstrap</p>
+            </div>  
+            <a class="btn project-btn" href="https://htmlpreview.github.io/?https://github.com/shuhailev/shuhailev/blob/main/calculator/index.html" role="button">SEE DEMO</a>
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
-        <div class="card mx-auto portfolio" style="width: 18rem;">
-          <img src="img/project3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Space Tourism Website</h5>
-            <p class="card-text text-start">I took a figma Design from frontendmentor.io website.They provide designs for people like me.Who want to practice building Frontend
-              Skills used: HTML CSS Javascript and Bootstrap
-            </p>
-          </div>
-            <a class="btn project-btn" href="https://shuhailev.github.io/Space-Tourism/index.html" role="button">SEE DEMO</a>
+        <div class="card mx-auto portfolio">
+              <img src="img/project3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title portfolio-item">Space Tourism Website</h5>
+              <p class="card-text portfolio-p p3-p text-start">I took a figma Design from frontendmentor.io website.They provide designs for people like me.Who want to practice building Frontend
+                Skills used: HTML CSS Javascript and Bootstrap
+              </p>
+            </div>
+            <a class="btn project-btn" href="https://htmlpreview.github.io/?https://github.com/shuhailev/shuhailev/blob/main/calculator/index.html" role="button">SEE DEMO</a>
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card mx-auto portfolio " style="width: 18rem;">
-          <img src="img/project4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Facebook Clone</h5>
-            <p class="card-text text-start">This is a Facebook Login Page Clone
-              Skills used: HTML CSS.
-            </p>
-          </div>
-            <a class="btn project-btn" href="" role="button">SEE DEMO</a>
+        <div class="card mx-auto portfolio">
+              <img src="img/project4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title portfolio-item">Facebook Clone</h5>
+              <p class="card-text portfolio-p p4-p text-start">This is a Facebook Login Page Clone
+                Skills used: HTML CSS.
+              </p>
+            </div>
+            <a class="btn project-btn" href="https://htmlpreview.github.io/?https://github.com/shuhailev/shuhailev/blob/main/calculator/index.html" role="button">SEE DEMO</a>
         </div>
       </div>
       </div>
@@ -133,27 +131,34 @@
     <h1 class="skillsh1 text-center">Skills</h1>
   <div class="row">
   <div class="col-md-12 ">
-    <p>HTML</p>
+    <p><b>HTML</b></p>
     <div class="progress">
-      <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
-    <p>CSS</p>
+    <p><b>CSS</b></p>
     <div class="progress">
-      <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
-    <p>JavaScript</p>
+    <p><b>JavaScript</b></p>
     <div class="progress">
-      <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
-    <p>Photoshop</p>
+    <p><b>Photoshop</b></p>
     <div class="progress">
-      <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <p><b>Bootstrap</b></p>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <p><b>React</b></p>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
   </div>
   </div>
   </section>
 </div><!--container-fluid closing-->
-
 
 <!--contactttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt-->
   <section id="contact">
@@ -162,49 +167,39 @@
   <div class="col-md-12 contact">
     <div class="container-fluid">
     <form>
-      <div class="col-lg-9 col-sm-10 mb-3">
+      <div class="col-lg-9 col-sm-12 mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       </div>
-      <div class="col-lg-9 col-sm-10 mb-3">
+      <div class="col-lg-9 col-sm-12 mb-3">
         <label for="exampleInputPassword1" class="form-label">Mobile</label>
         <input type="tel" class="form-control" id="exampleInputPassword1">
       </div>
-      <div class="col-lg-9 col-sm-10 mb-3">
+      <div class="col-lg-9 col-sm-12 mb-3">
         <label for="exampleInputPassword1" class="form-label">Message</label>
         <textarea class="form-control" cols="30" rows="9"></textarea>
       </div>
       
       <button type="submit" class="btn submit-button">Submit</button>
-    </form><br><br>
-    
+    </form>
+    <div class="btn-go-up"><a href="#header"><i class="fa-solid fa-arrow-up"></i></a></div>
     </div>
   </div>
   </div>
   </section>
-
-
 
 <!--footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-->
   <section class="footer">
   <div class="row">
   <div class="col-md-12 text-center">
     <br>
-    <a href="instagram.com"><i class="fab fa-instagram pl-2 social-icon"></i></a>
+    <a href="instagram.com/shuhailev"><i class="fab fa-instagram pl-2 social-icon"></i></a>
     <a href="facebook.com"><i class="fab fa-facebook pl-2 social-icon"></i></a>
-    <a href="linkedin.com"><i class="fab fa-linkedin-in pl-2 social-icon"></i></a>
+    <a href="www.linkedin.com/in/shuhail-ev-735539228"><i class="fab fa-linkedin-in pl-2 social-icon"></i></a>
     <a href="github.com"><i class="fab fa-github pl-2 social-icon"></i></a>
   </div>
   </div>
   </section>
-
-
-
-
-
-
-
-
 
 
 
